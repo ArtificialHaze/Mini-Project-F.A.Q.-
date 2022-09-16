@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML,CSS,Javascript" />
+    <meta name="author" content="vakho" />
+    <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <title>Main Page</title>
+  </head>
+  <body>
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+      <div class="text">
+        <h1>Vertical</h1>
+        <p>Click tabs to learn more</p>
+      </div>
+      <!-- TABS -->
+      <div class="tabs">
+        <div class="tabs__tab--links">
+          <button data-filter="about" class="tabs__tab--link active">
+            Who we are?
+          </button>
+          <button data-filter="services" class="tabs__tab--link">
+            What we do?
+          </button>
+          <button data-filter="contact" class="tabs__tab--link">
+            Get in touch.
+          </button>
+        </div>
+        <div class="tabs__tab--contents">
+          <div class="tabs__tab--content about">
+            <h3>Who we are?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos quis soluta, hic consectetur natus obcaecati atque
+              sunt adipisci exercitationem non.
+            </p>
+          </div>
+          <div class="tabs__tab--content services">
+            <h3>What we do?</h3>
+            <p>
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Dignissimos quis soluta, hic consectetur natus
+              obcaecati atque sunt adipisci exercitationem non.
+            </p>
+          </div>
+          <div class="tabs__tab--content contact">
+            <h3>Get in touch</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script defer src="./main.js"></script>
+</html>
